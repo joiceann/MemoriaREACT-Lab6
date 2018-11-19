@@ -1,1 +1,1 @@
-# MemoriaREACT-Lab6
+# web_lab_6_Memoria-React

@@ -1,0 +1,57 @@
+.tablero{
+  display: flex;
+  flex-wrap:wrap;
+  width: 700px;
+  height:600px;
+  margin: 0 auto;
+  justify-content: space-around;
+  display: grid;
+  grid-template-columns:250px 250px 250px 250px;
+  grid-template-rows:250px 250px 250px 250px;
+  grid-column-gap: 25px;
+  grid-row-gap: 25px;
+}
+
+.carta{
+  width: 250px;
+  height: 250px;
+  background-color:rgb(245, 189, 214);
+
+}
+
+.arriba{
+  width: auto;
+  height: auto;
+  background-color:rgb(245, 189, 214);
+
+}
+.abajo{
+  width: 250px;
+  height: 250px;
+  background-color:rgb(245, 189, 214);
+
+}
+
+.titulo{
+  font-size: 50px;
+  font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+  padding: 10px;
+  color:rgb(175, 92, 103);
+  text-align: center;
+
+}
+
+.btn-Reiniciar{
+  position: absolute;
+  left: 12px;
+  top: 58px;
+}
+
+.App{
+  text-align: center;
+}
+
+.ReactFlipCard {
+  width: 100%;
+  height: 100%;
+}
